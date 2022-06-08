@@ -6,10 +6,10 @@
 //};
 
 
-  var pron = ["los", "nuestros"];
-  var adj = ["geniales", "grandes"];
-  var noun = ["telecom", "caracoles", "desafio"];
-  var ext = [".es", ".com", ".net", ".us", ".io"];
+  const pron = ["los", "nuestros"];
+  const adj = ["geniales", "grandes"];
+  const noun = ["telecom", "caracoles", "desafio", "internet", "repelus"];
+  const ext = [".es", ".com", ".net", ".us", ".io"];
 
   for(var item of pron){
       for(var item1 of adj){
@@ -23,7 +23,6 @@
                     console.log(item + item1 + item2 + item3);
                 }
                 }
-
           }
       }
   } 
